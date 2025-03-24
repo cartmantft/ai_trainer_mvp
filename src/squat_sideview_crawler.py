@@ -3,7 +3,8 @@ import urllib.parse
 import time
 import os
 
-SEARCH_QUERY = "squat exercise side view"
+# SEARCH_QUERY = "squat exercise side view"
+SEARCH_QUERY = "bad squat form side view"
 MAX_RESULTS = 10
 MAX_DURATION_SECONDS = 60
 DOWNLOAD_DIR = "squat_videos"
