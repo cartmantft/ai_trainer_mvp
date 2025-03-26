@@ -80,14 +80,6 @@ def main():
             if len(angle_buffer) > 5:
                 angle_buffer.pop(0)
 
-            # 방향 전환 판단
-            # if direction == "down" and angle > 160:
-            #     direction = "up"
-            #     squat_count += 1
-            # elif direction == "up" and angle < 130:
-            #     direction = "down"
-
-
             new_direction, up_buffer, down_buffer=determine_direction(angle, direction, up_buffer, down_buffer)
             
             # 방향이 실제로 전환되었을 때 처리
