@@ -1,0 +1,638 @@
+2025-03-28 11:48:04,061 - INFO - ===== AI Trainer MVP Logging Start (UTF-8 Enabled) =====
+2025-03-28 11:48:04,072 - INFO - MediaPipe Pose 모델 초기화 성공
+2025-03-28 11:48:04,581 - INFO - 비디오 소스 0 초기화 성공 (원본 해상도: 640x480)
+2025-03-28 11:48:04,581 - DEBUG - SquatAnalyzer 초기화됨
+2025-03-28 11:48:04,581 - INFO - 사용 임계값: {'depth_offset_y': 0.03, 'lean_angle': 50, 'heel_lift_diff': 0.03, 'visibility': 0.6, 'side_x_diff': 0.15, 'knee_straight': 160, 'knee_bent': 100, 'up_pose_check_angle': 170, 'depth_check_extra': 15, 'feedback_font_size': 18, 'info_box_width': 300}
+2025-03-28 11:48:04,632 - DEBUG - --- Frame 1 Start ---
+2025-03-28 11:48:05,353 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,371 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,372 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,403 - DEBUG - Final Feedback List for Frame 1: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,403 - DEBUG - --- Frame 1 End ---
+2025-03-28 11:48:05,404 - DEBUG - --- Frame 2 Start ---
+2025-03-28 11:48:05,412 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,431 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,432 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,450 - DEBUG - Final Feedback List for Frame 2: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,450 - DEBUG - --- Frame 2 End ---
+2025-03-28 11:48:05,451 - DEBUG - --- Frame 3 Start ---
+2025-03-28 11:48:05,460 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,478 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,478 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,496 - DEBUG - Final Feedback List for Frame 3: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,496 - DEBUG - --- Frame 3 End ---
+2025-03-28 11:48:05,496 - DEBUG - --- Frame 4 Start ---
+2025-03-28 11:48:05,504 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,522 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,523 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,542 - DEBUG - Final Feedback List for Frame 4: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,542 - DEBUG - --- Frame 4 End ---
+2025-03-28 11:48:05,543 - DEBUG - --- Frame 5 Start ---
+2025-03-28 11:48:05,551 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,569 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,570 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,602 - DEBUG - Final Feedback List for Frame 5: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,602 - DEBUG - --- Frame 5 End ---
+2025-03-28 11:48:05,603 - DEBUG - --- Frame 6 Start ---
+2025-03-28 11:48:05,610 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,627 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,628 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,648 - DEBUG - Final Feedback List for Frame 6: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,648 - DEBUG - --- Frame 6 End ---
+2025-03-28 11:48:05,649 - DEBUG - --- Frame 7 Start ---
+2025-03-28 11:48:05,657 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,675 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,676 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,695 - DEBUG - Final Feedback List for Frame 7: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,695 - DEBUG - --- Frame 7 End ---
+2025-03-28 11:48:05,695 - DEBUG - --- Frame 8 Start ---
+2025-03-28 11:48:05,705 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,725 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,726 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,755 - DEBUG - Final Feedback List for Frame 8: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,755 - DEBUG - --- Frame 8 End ---
+2025-03-28 11:48:05,756 - DEBUG - --- Frame 9 Start ---
+2025-03-28 11:48:05,764 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,782 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,783 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,817 - DEBUG - Final Feedback List for Frame 9: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,817 - DEBUG - --- Frame 9 End ---
+2025-03-28 11:48:05,817 - DEBUG - --- Frame 10 Start ---
+2025-03-28 11:48:05,824 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,841 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,843 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,862 - DEBUG - Final Feedback List for Frame 10: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,862 - DEBUG - --- Frame 10 End ---
+2025-03-28 11:48:05,863 - DEBUG - --- Frame 11 Start ---
+2025-03-28 11:48:05,871 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,889 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,890 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,925 - DEBUG - Final Feedback List for Frame 11: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,925 - DEBUG - --- Frame 11 End ---
+2025-03-28 11:48:05,925 - DEBUG - --- Frame 12 Start ---
+2025-03-28 11:48:05,932 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:05,952 - DEBUG - Pose processing executed.
+2025-03-28 11:48:05,953 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:05,985 - DEBUG - Final Feedback List for Frame 12: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:05,985 - DEBUG - --- Frame 12 End ---
+2025-03-28 11:48:05,985 - DEBUG - --- Frame 13 Start ---
+2025-03-28 11:48:05,993 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,011 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,012 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,032 - DEBUG - Final Feedback List for Frame 13: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,032 - DEBUG - --- Frame 13 End ---
+2025-03-28 11:48:06,032 - DEBUG - --- Frame 14 Start ---
+2025-03-28 11:48:06,041 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,059 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,060 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,093 - DEBUG - Final Feedback List for Frame 14: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,093 - DEBUG - --- Frame 14 End ---
+2025-03-28 11:48:06,094 - DEBUG - --- Frame 15 Start ---
+2025-03-28 11:48:06,102 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,120 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,121 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,139 - DEBUG - Final Feedback List for Frame 15: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,139 - DEBUG - --- Frame 15 End ---
+2025-03-28 11:48:06,139 - DEBUG - --- Frame 16 Start ---
+2025-03-28 11:48:06,147 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,165 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,166 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,185 - DEBUG - Final Feedback List for Frame 16: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,185 - DEBUG - --- Frame 16 End ---
+2025-03-28 11:48:06,186 - DEBUG - --- Frame 17 Start ---
+2025-03-28 11:48:06,194 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,212 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,212 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,231 - DEBUG - Final Feedback List for Frame 17: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,231 - DEBUG - --- Frame 17 End ---
+2025-03-28 11:48:06,232 - DEBUG - --- Frame 18 Start ---
+2025-03-28 11:48:06,240 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,258 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,259 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,277 - DEBUG - Final Feedback List for Frame 18: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,277 - DEBUG - --- Frame 18 End ---
+2025-03-28 11:48:06,277 - DEBUG - --- Frame 19 Start ---
+2025-03-28 11:48:06,285 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,302 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,303 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,323 - DEBUG - Final Feedback List for Frame 19: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,323 - DEBUG - --- Frame 19 End ---
+2025-03-28 11:48:06,324 - DEBUG - --- Frame 20 Start ---
+2025-03-28 11:48:06,334 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,352 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,352 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,385 - DEBUG - Final Feedback List for Frame 20: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,385 - DEBUG - --- Frame 20 End ---
+2025-03-28 11:48:06,385 - DEBUG - --- Frame 21 Start ---
+2025-03-28 11:48:06,394 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,412 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,413 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,445 - DEBUG - Final Feedback List for Frame 21: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,445 - DEBUG - --- Frame 21 End ---
+2025-03-28 11:48:06,446 - DEBUG - --- Frame 22 Start ---
+2025-03-28 11:48:06,454 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,471 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,472 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,492 - DEBUG - Final Feedback List for Frame 22: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,492 - DEBUG - --- Frame 22 End ---
+2025-03-28 11:48:06,492 - DEBUG - --- Frame 23 Start ---
+2025-03-28 11:48:06,501 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,519 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,520 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,540 - DEBUG - Final Feedback List for Frame 23: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,540 - DEBUG - --- Frame 23 End ---
+2025-03-28 11:48:06,541 - DEBUG - --- Frame 24 Start ---
+2025-03-28 11:48:06,548 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,566 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,567 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,603 - DEBUG - Final Feedback List for Frame 24: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,603 - DEBUG - --- Frame 24 End ---
+2025-03-28 11:48:06,603 - DEBUG - --- Frame 25 Start ---
+2025-03-28 11:48:06,611 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,628 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,629 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,649 - DEBUG - Final Feedback List for Frame 25: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,649 - DEBUG - --- Frame 25 End ---
+2025-03-28 11:48:06,649 - DEBUG - --- Frame 26 Start ---
+2025-03-28 11:48:06,657 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,675 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,676 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,695 - DEBUG - Final Feedback List for Frame 26: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,695 - DEBUG - --- Frame 26 End ---
+2025-03-28 11:48:06,696 - DEBUG - --- Frame 27 Start ---
+2025-03-28 11:48:06,702 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,720 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,721 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,741 - DEBUG - Final Feedback List for Frame 27: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,741 - DEBUG - --- Frame 27 End ---
+2025-03-28 11:48:06,741 - DEBUG - --- Frame 28 Start ---
+2025-03-28 11:48:06,750 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,768 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,769 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,788 - DEBUG - Final Feedback List for Frame 28: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,788 - DEBUG - --- Frame 28 End ---
+2025-03-28 11:48:06,788 - DEBUG - --- Frame 29 Start ---
+2025-03-28 11:48:06,798 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,824 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,826 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,864 - DEBUG - Final Feedback List for Frame 29: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,864 - DEBUG - --- Frame 29 End ---
+2025-03-28 11:48:06,865 - DEBUG - --- Frame 30 Start ---
+2025-03-28 11:48:06,873 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,902 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,903 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,926 - DEBUG - Final Feedback List for Frame 30: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,926 - DEBUG - --- Frame 30 End ---
+2025-03-28 11:48:06,926 - DEBUG - --- Frame 31 Start ---
+2025-03-28 11:48:06,934 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:06,952 - DEBUG - Pose processing executed.
+2025-03-28 11:48:06,952 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:06,972 - DEBUG - Final Feedback List for Frame 31: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:06,972 - DEBUG - --- Frame 31 End ---
+2025-03-28 11:48:06,972 - DEBUG - --- Frame 32 Start ---
+2025-03-28 11:48:06,981 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,009 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,011 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,049 - DEBUG - Final Feedback List for Frame 32: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,049 - DEBUG - --- Frame 32 End ---
+2025-03-28 11:48:07,050 - DEBUG - --- Frame 33 Start ---
+2025-03-28 11:48:07,059 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,087 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,088 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,111 - DEBUG - Final Feedback List for Frame 33: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,111 - DEBUG - --- Frame 33 End ---
+2025-03-28 11:48:07,111 - DEBUG - --- Frame 34 Start ---
+2025-03-28 11:48:07,120 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,138 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,139 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,157 - DEBUG - Final Feedback List for Frame 34: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,157 - DEBUG - --- Frame 34 End ---
+2025-03-28 11:48:07,157 - DEBUG - --- Frame 35 Start ---
+2025-03-28 11:48:07,167 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,184 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,185 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,203 - DEBUG - Final Feedback List for Frame 35: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,203 - DEBUG - --- Frame 35 End ---
+2025-03-28 11:48:07,204 - DEBUG - --- Frame 36 Start ---
+2025-03-28 11:48:07,212 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,230 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,230 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,249 - DEBUG - Final Feedback List for Frame 36: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,249 - DEBUG - --- Frame 36 End ---
+2025-03-28 11:48:07,250 - DEBUG - --- Frame 37 Start ---
+2025-03-28 11:48:07,259 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,276 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,277 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,297 - DEBUG - Final Feedback List for Frame 37: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,297 - DEBUG - --- Frame 37 End ---
+2025-03-28 11:48:07,298 - DEBUG - --- Frame 38 Start ---
+2025-03-28 11:48:07,306 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,324 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,325 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,343 - DEBUG - Final Feedback List for Frame 38: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,343 - DEBUG - --- Frame 38 End ---
+2025-03-28 11:48:07,343 - DEBUG - --- Frame 39 Start ---
+2025-03-28 11:48:07,351 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,369 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,370 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,405 - DEBUG - Final Feedback List for Frame 39: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,405 - DEBUG - --- Frame 39 End ---
+2025-03-28 11:48:07,405 - DEBUG - --- Frame 40 Start ---
+2025-03-28 11:48:07,414 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,431 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,432 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,465 - DEBUG - Final Feedback List for Frame 40: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,465 - DEBUG - --- Frame 40 End ---
+2025-03-28 11:48:07,465 - DEBUG - --- Frame 41 Start ---
+2025-03-28 11:48:07,473 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,491 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,492 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,512 - DEBUG - Final Feedback List for Frame 41: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,512 - DEBUG - --- Frame 41 End ---
+2025-03-28 11:48:07,513 - DEBUG - --- Frame 42 Start ---
+2025-03-28 11:48:07,520 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,538 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,539 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,558 - DEBUG - Final Feedback List for Frame 42: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,558 - DEBUG - --- Frame 42 End ---
+2025-03-28 11:48:07,559 - DEBUG - --- Frame 43 Start ---
+2025-03-28 11:48:07,566 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,584 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,585 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,604 - DEBUG - Final Feedback List for Frame 43: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,604 - DEBUG - --- Frame 43 End ---
+2025-03-28 11:48:07,604 - DEBUG - --- Frame 44 Start ---
+2025-03-28 11:48:07,613 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,632 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,633 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,650 - DEBUG - Final Feedback List for Frame 44: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,650 - DEBUG - --- Frame 44 End ---
+2025-03-28 11:48:07,650 - DEBUG - --- Frame 45 Start ---
+2025-03-28 11:48:07,658 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,675 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,676 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,696 - DEBUG - Final Feedback List for Frame 45: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,696 - DEBUG - --- Frame 45 End ---
+2025-03-28 11:48:07,697 - DEBUG - --- Frame 46 Start ---
+2025-03-28 11:48:07,705 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,723 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,724 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,743 - DEBUG - Final Feedback List for Frame 46: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,743 - DEBUG - --- Frame 46 End ---
+2025-03-28 11:48:07,743 - DEBUG - --- Frame 47 Start ---
+2025-03-28 11:48:07,751 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,769 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,769 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,788 - DEBUG - Final Feedback List for Frame 47: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,788 - DEBUG - --- Frame 47 End ---
+2025-03-28 11:48:07,788 - DEBUG - --- Frame 48 Start ---
+2025-03-28 11:48:07,798 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,815 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,816 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,835 - DEBUG - Final Feedback List for Frame 48: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,835 - DEBUG - --- Frame 48 End ---
+2025-03-28 11:48:07,835 - DEBUG - --- Frame 49 Start ---
+2025-03-28 11:48:07,844 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,861 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,862 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,882 - DEBUG - Final Feedback List for Frame 49: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,882 - DEBUG - --- Frame 49 End ---
+2025-03-28 11:48:07,883 - DEBUG - --- Frame 50 Start ---
+2025-03-28 11:48:07,891 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,910 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,911 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,929 - DEBUG - Final Feedback List for Frame 50: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,929 - DEBUG - --- Frame 50 End ---
+2025-03-28 11:48:07,929 - DEBUG - --- Frame 51 Start ---
+2025-03-28 11:48:07,936 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,954 - DEBUG - Pose processing executed.
+2025-03-28 11:48:07,955 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:07,974 - DEBUG - Final Feedback List for Frame 51: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:07,974 - DEBUG - --- Frame 51 End ---
+2025-03-28 11:48:07,974 - DEBUG - --- Frame 52 Start ---
+2025-03-28 11:48:07,982 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:07,999 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,000 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,020 - DEBUG - Final Feedback List for Frame 52: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,020 - DEBUG - --- Frame 52 End ---
+2025-03-28 11:48:08,020 - DEBUG - --- Frame 53 Start ---
+2025-03-28 11:48:08,031 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,050 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,051 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,082 - DEBUG - Final Feedback List for Frame 53: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,082 - DEBUG - --- Frame 53 End ---
+2025-03-28 11:48:08,082 - DEBUG - --- Frame 54 Start ---
+2025-03-28 11:48:08,091 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,109 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,110 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,128 - DEBUG - Final Feedback List for Frame 54: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,128 - DEBUG - --- Frame 54 End ---
+2025-03-28 11:48:08,129 - DEBUG - --- Frame 55 Start ---
+2025-03-28 11:48:08,136 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,154 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,155 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,189 - DEBUG - Final Feedback List for Frame 55: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,190 - DEBUG - --- Frame 55 End ---
+2025-03-28 11:48:08,190 - DEBUG - --- Frame 56 Start ---
+2025-03-28 11:48:08,198 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,216 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,217 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,252 - DEBUG - Final Feedback List for Frame 56: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,261 - DEBUG - --- Frame 56 End ---
+2025-03-28 11:48:08,261 - DEBUG - --- Frame 57 Start ---
+2025-03-28 11:48:08,270 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,289 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,290 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,312 - DEBUG - Final Feedback List for Frame 57: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,312 - DEBUG - --- Frame 57 End ---
+2025-03-28 11:48:08,312 - DEBUG - --- Frame 58 Start ---
+2025-03-28 11:48:08,320 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,338 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,339 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,358 - DEBUG - Final Feedback List for Frame 58: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,358 - DEBUG - --- Frame 58 End ---
+2025-03-28 11:48:08,358 - DEBUG - --- Frame 59 Start ---
+2025-03-28 11:48:08,365 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,383 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,384 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,404 - DEBUG - Final Feedback List for Frame 59: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,405 - DEBUG - --- Frame 59 End ---
+2025-03-28 11:48:08,405 - DEBUG - --- Frame 60 Start ---
+2025-03-28 11:48:08,414 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,432 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,433 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,466 - DEBUG - Final Feedback List for Frame 60: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,467 - DEBUG - --- Frame 60 End ---
+2025-03-28 11:48:08,467 - DEBUG - --- Frame 61 Start ---
+2025-03-28 11:48:08,476 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,496 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,497 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,529 - DEBUG - Final Feedback List for Frame 61: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,531 - DEBUG - --- Frame 61 End ---
+2025-03-28 11:48:08,531 - DEBUG - --- Frame 62 Start ---
+2025-03-28 11:48:08,539 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,556 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,557 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,576 - DEBUG - Final Feedback List for Frame 62: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,576 - DEBUG - --- Frame 62 End ---
+2025-03-28 11:48:08,576 - DEBUG - --- Frame 63 Start ---
+2025-03-28 11:48:08,585 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,603 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,604 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,623 - DEBUG - Final Feedback List for Frame 63: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,623 - DEBUG - --- Frame 63 End ---
+2025-03-28 11:48:08,623 - DEBUG - --- Frame 64 Start ---
+2025-03-28 11:48:08,632 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,649 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,650 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,669 - DEBUG - Final Feedback List for Frame 64: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,669 - DEBUG - --- Frame 64 End ---
+2025-03-28 11:48:08,670 - DEBUG - --- Frame 65 Start ---
+2025-03-28 11:48:08,678 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,697 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,698 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,716 - DEBUG - Final Feedback List for Frame 65: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,716 - DEBUG - --- Frame 65 End ---
+2025-03-28 11:48:08,716 - DEBUG - --- Frame 66 Start ---
+2025-03-28 11:48:08,724 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,745 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,746 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,779 - DEBUG - Final Feedback List for Frame 66: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,779 - DEBUG - --- Frame 66 End ---
+2025-03-28 11:48:08,779 - DEBUG - --- Frame 67 Start ---
+2025-03-28 11:48:08,788 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,806 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,807 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,825 - DEBUG - Final Feedback List for Frame 67: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,825 - DEBUG - --- Frame 67 End ---
+2025-03-28 11:48:08,825 - DEBUG - --- Frame 68 Start ---
+2025-03-28 11:48:08,834 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,851 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,852 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,888 - DEBUG - Final Feedback List for Frame 68: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,888 - DEBUG - --- Frame 68 End ---
+2025-03-28 11:48:08,889 - DEBUG - --- Frame 69 Start ---
+2025-03-28 11:48:08,897 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,915 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,915 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,934 - DEBUG - Final Feedback List for Frame 69: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,934 - DEBUG - --- Frame 69 End ---
+2025-03-28 11:48:08,934 - DEBUG - --- Frame 70 Start ---
+2025-03-28 11:48:08,944 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:08,961 - DEBUG - Pose processing executed.
+2025-03-28 11:48:08,962 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:08,981 - DEBUG - Final Feedback List for Frame 70: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:08,981 - DEBUG - --- Frame 70 End ---
+2025-03-28 11:48:08,981 - DEBUG - --- Frame 71 Start ---
+2025-03-28 11:48:08,990 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,008 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,009 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,027 - DEBUG - Final Feedback List for Frame 71: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,027 - DEBUG - --- Frame 71 End ---
+2025-03-28 11:48:09,027 - DEBUG - --- Frame 72 Start ---
+2025-03-28 11:48:09,035 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,052 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,053 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,073 - DEBUG - Final Feedback List for Frame 72: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,073 - DEBUG - --- Frame 72 End ---
+2025-03-28 11:48:09,073 - DEBUG - --- Frame 73 Start ---
+2025-03-28 11:48:09,080 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,098 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,099 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,119 - DEBUG - Final Feedback List for Frame 73: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,119 - DEBUG - --- Frame 73 End ---
+2025-03-28 11:48:09,120 - DEBUG - --- Frame 74 Start ---
+2025-03-28 11:48:09,128 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,146 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,147 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,181 - DEBUG - Final Feedback List for Frame 74: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,181 - DEBUG - --- Frame 74 End ---
+2025-03-28 11:48:09,182 - DEBUG - --- Frame 75 Start ---
+2025-03-28 11:48:09,190 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,209 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,210 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,243 - DEBUG - Final Feedback List for Frame 75: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,243 - DEBUG - --- Frame 75 End ---
+2025-03-28 11:48:09,243 - DEBUG - --- Frame 76 Start ---
+2025-03-28 11:48:09,251 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,269 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,271 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,303 - DEBUG - Final Feedback List for Frame 76: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,303 - DEBUG - --- Frame 76 End ---
+2025-03-28 11:48:09,304 - DEBUG - --- Frame 77 Start ---
+2025-03-28 11:48:09,313 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,335 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,336 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,366 - DEBUG - Final Feedback List for Frame 77: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,366 - DEBUG - --- Frame 77 End ---
+2025-03-28 11:48:09,366 - DEBUG - --- Frame 78 Start ---
+2025-03-28 11:48:09,377 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,397 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,398 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,428 - DEBUG - Final Feedback List for Frame 78: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,428 - DEBUG - --- Frame 78 End ---
+2025-03-28 11:48:09,428 - DEBUG - --- Frame 79 Start ---
+2025-03-28 11:48:09,438 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,457 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,458 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,491 - DEBUG - Final Feedback List for Frame 79: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,491 - DEBUG - --- Frame 79 End ---
+2025-03-28 11:48:09,491 - DEBUG - --- Frame 80 Start ---
+2025-03-28 11:48:09,500 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,516 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,517 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,538 - DEBUG - Final Feedback List for Frame 80: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,538 - DEBUG - --- Frame 80 End ---
+2025-03-28 11:48:09,539 - DEBUG - --- Frame 81 Start ---
+2025-03-28 11:48:09,547 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,565 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,566 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,584 - DEBUG - Final Feedback List for Frame 81: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,584 - DEBUG - --- Frame 81 End ---
+2025-03-28 11:48:09,585 - DEBUG - --- Frame 82 Start ---
+2025-03-28 11:48:09,594 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,612 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,613 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,631 - DEBUG - Final Feedback List for Frame 82: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,631 - DEBUG - --- Frame 82 End ---
+2025-03-28 11:48:09,631 - DEBUG - --- Frame 83 Start ---
+2025-03-28 11:48:09,639 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,657 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,657 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,677 - DEBUG - Final Feedback List for Frame 83: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,677 - DEBUG - --- Frame 83 End ---
+2025-03-28 11:48:09,678 - DEBUG - --- Frame 84 Start ---
+2025-03-28 11:48:09,684 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,702 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,703 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,724 - DEBUG - Final Feedback List for Frame 84: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,724 - DEBUG - --- Frame 84 End ---
+2025-03-28 11:48:09,724 - DEBUG - --- Frame 85 Start ---
+2025-03-28 11:48:09,732 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,750 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,751 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,769 - DEBUG - Final Feedback List for Frame 85: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,769 - DEBUG - --- Frame 85 End ---
+2025-03-28 11:48:09,769 - DEBUG - --- Frame 86 Start ---
+2025-03-28 11:48:09,779 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,799 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,799 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,831 - DEBUG - Final Feedback List for Frame 86: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,831 - DEBUG - --- Frame 86 End ---
+2025-03-28 11:48:09,832 - DEBUG - --- Frame 87 Start ---
+2025-03-28 11:48:09,841 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,858 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,859 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,877 - DEBUG - Final Feedback List for Frame 87: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,877 - DEBUG - --- Frame 87 End ---
+2025-03-28 11:48:09,877 - DEBUG - --- Frame 88 Start ---
+2025-03-28 11:48:09,885 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,903 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,904 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,925 - DEBUG - Final Feedback List for Frame 88: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,925 - DEBUG - --- Frame 88 End ---
+2025-03-28 11:48:09,925 - DEBUG - --- Frame 89 Start ---
+2025-03-28 11:48:09,935 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:09,953 - DEBUG - Pose processing executed.
+2025-03-28 11:48:09,954 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:09,987 - DEBUG - Final Feedback List for Frame 89: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:09,987 - DEBUG - --- Frame 89 End ---
+2025-03-28 11:48:09,988 - DEBUG - --- Frame 90 Start ---
+2025-03-28 11:48:09,998 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,016 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,017 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,049 - DEBUG - Final Feedback List for Frame 90: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,049 - DEBUG - --- Frame 90 End ---
+2025-03-28 11:48:10,049 - DEBUG - --- Frame 91 Start ---
+2025-03-28 11:48:10,058 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,076 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,077 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,096 - DEBUG - Final Feedback List for Frame 91: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,096 - DEBUG - --- Frame 91 End ---
+2025-03-28 11:48:10,096 - DEBUG - --- Frame 92 Start ---
+2025-03-28 11:48:10,105 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,123 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,124 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,143 - DEBUG - Final Feedback List for Frame 92: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,143 - DEBUG - --- Frame 92 End ---
+2025-03-28 11:48:10,143 - DEBUG - --- Frame 93 Start ---
+2025-03-28 11:48:10,153 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,173 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,174 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,205 - DEBUG - Final Feedback List for Frame 93: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,205 - DEBUG - --- Frame 93 End ---
+2025-03-28 11:48:10,205 - DEBUG - --- Frame 94 Start ---
+2025-03-28 11:48:10,214 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,232 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,233 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,251 - DEBUG - Final Feedback List for Frame 94: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,251 - DEBUG - --- Frame 94 End ---
+2025-03-28 11:48:10,251 - DEBUG - --- Frame 95 Start ---
+2025-03-28 11:48:10,260 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,277 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,278 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,298 - DEBUG - Final Feedback List for Frame 95: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,298 - DEBUG - --- Frame 95 End ---
+2025-03-28 11:48:10,299 - DEBUG - --- Frame 96 Start ---
+2025-03-28 11:48:10,305 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,323 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,324 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,343 - DEBUG - Final Feedback List for Frame 96: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,343 - DEBUG - --- Frame 96 End ---
+2025-03-28 11:48:10,343 - DEBUG - --- Frame 97 Start ---
+2025-03-28 11:48:10,350 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,368 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,369 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,389 - DEBUG - Final Feedback List for Frame 97: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,389 - DEBUG - --- Frame 97 End ---
+2025-03-28 11:48:10,389 - DEBUG - --- Frame 98 Start ---
+2025-03-28 11:48:10,397 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,415 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,416 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,451 - DEBUG - Final Feedback List for Frame 98: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,452 - DEBUG - --- Frame 98 End ---
+2025-03-28 11:48:10,452 - DEBUG - --- Frame 99 Start ---
+2025-03-28 11:48:10,460 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,477 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,478 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,497 - DEBUG - Final Feedback List for Frame 99: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,497 - DEBUG - --- Frame 99 End ---
+2025-03-28 11:48:10,498 - DEBUG - --- Frame 100 Start ---
+2025-03-28 11:48:10,506 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,524 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,525 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,545 - DEBUG - Final Feedback List for Frame 100: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,545 - DEBUG - --- Frame 100 End ---
+2025-03-28 11:48:10,545 - DEBUG - --- Frame 101 Start ---
+2025-03-28 11:48:10,553 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,571 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,572 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,604 - DEBUG - Final Feedback List for Frame 101: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,604 - DEBUG - --- Frame 101 End ---
+2025-03-28 11:48:10,604 - DEBUG - --- Frame 102 Start ---
+2025-03-28 11:48:10,611 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,629 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,630 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,649 - DEBUG - Final Feedback List for Frame 102: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,649 - DEBUG - --- Frame 102 End ---
+2025-03-28 11:48:10,650 - DEBUG - --- Frame 103 Start ---
+2025-03-28 11:48:10,657 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,675 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,676 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,696 - DEBUG - Final Feedback List for Frame 103: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,696 - DEBUG - --- Frame 103 End ---
+2025-03-28 11:48:10,696 - DEBUG - --- Frame 104 Start ---
+2025-03-28 11:48:10,704 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,722 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,723 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,742 - DEBUG - Final Feedback List for Frame 104: ['자세를 감지할 수 없습니다.']
+2025-03-28 11:48:10,742 - DEBUG - --- Frame 104 End ---
+2025-03-28 11:48:10,743 - DEBUG - --- Frame 105 Start ---
+2025-03-28 11:48:10,752 - DEBUG - Frame resized to: 960x720
+2025-03-28 11:48:10,769 - DEBUG - Pose processing executed.
+2025-03-28 11:48:10,770 - DEBUG - Pose landmarks not detected.
+2025-03-28 11:48:10,806 - INFO - 종료 키('q') 입력됨. 루프 종료.
+2025-03-28 11:48:10,806 - INFO - ===== AI Trainer MVP Logging End =====
+2025-03-28 11:48:11,079 - INFO - 비디오 캡처 리소스 해제됨.
+2025-03-28 11:48:11,096 - INFO - OpenCV 창 닫힘.
+2025-03-28 11:48:11,108 - INFO - MediaPipe Pose 리소스 해제됨.

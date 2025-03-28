@@ -5,6 +5,23 @@ import logging
 import datetime
 import os
 
+
+def smooth_value(current_value, previous_value, weight=0.3):
+    """
+    이동 평균 필터를 적용하여 값을 부드럽게 만듭니다.
+
+    Args:
+        current_value (float): 현재 값.
+        previous_value (float): 이전 값.
+        weight (float, optional): 가중치 (0 ~ 1 사이 값). 값이 클수록 현재 값에 더 많은 비중을 둡니다. Defaults to 0.3.
+
+    Returns:
+        float: 부드러워진 값.
+    """
+    if previous_value is None:
+        return current_value
+    return (1 - weight) * previous_value + weight * current_value
+
 # --- 각도 및 좌표 계산 함수 ---
 def calculate_angle(a, b, c):
     """세 점 사이의 각도를 계산하는 함수 (a, b, c는 [x, y] 좌표)"""

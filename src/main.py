@@ -2,7 +2,8 @@ import cv2
 import mediapipe as mp
 import logging
 import datetime
-from utils import setup_logging
+import src.messages as msg
+from utils import setup_logging, smooth_value  # smooth_value 함수 import
 from squat_analyzer import SquatAnalyzer
 from visualization import draw_landmarks_and_feedback
 
@@ -18,8 +19,8 @@ try:
                         smooth_landmarks=True,
                         enable_segmentation=False,
                         smooth_segmentation=True,
-                        min_detection_confidence=0.5,
-                        min_tracking_confidence=0.5)
+                        min_detection_confidence=0.7, # 높임
+                        min_tracking_confidence=0.7) # 높임
     logger.info("MediaPipe Pose 모델 초기화 성공")
 except Exception as e:
     logger.error(f"MediaPipe Pose 모델 초기화 실패: {e}", exc_info=True)
@@ -42,7 +43,7 @@ else:
 thresholds = {
     'depth_offset_y': 0.03,
     'lean_angle': 50,
-    'heel_lift_diff': 0.03,
+    'heel_lift_diff': 0.05, # 높임
     'visibility': 0.6,
     'side_x_diff': 0.15,
     'knee_straight': 160,
@@ -87,7 +88,7 @@ class VideoRecorder:
         self.video_writer = cv2.VideoWriter(
             self.output_path, fourcc, self.fps, self.resolution)
         self.is_recording = True
-        print("녹화를 시작합니다.")
+        print(msg.RECORDING_START_PROMPT)
 
     def stop_recording(self):
         """녹화를 중지합니다."""
@@ -95,7 +96,7 @@ class VideoRecorder:
             self.video_writer.release()
             self.video_writer = None
         self.is_recording = False
-        print("녹화를 중지합니다.")
+        print(msg.RECORDING_STOP_PROMPT)
 
     def write_frame(self, frame):
         """프레임을 영상에 기록합니다."""
@@ -113,6 +114,13 @@ video_recorder = None
 # ==================== 추가: 창 크기 조절 가능하도록 설정 ====================
 cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
 # =======================================================================
+
+# active_side 변수를 SquatAnalyzer 외부에서 관리하도록 변경
+active_side = None
+initial_heel_y = None
+
+# 이전 프레임 랜드마크 변수 초기화
+previous_landmarks = None
 
 while cap.isOpened():
     frame_count += 1
@@ -137,8 +145,7 @@ while cap.isOpened():
 
     image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     image_rgb.flags.writeable = False
-
-    # MediaPipe 처리
+    # Pose processing
     try:
         results = pose.process(image_rgb)
         logger.debug("Pose processing executed.")
@@ -151,20 +158,44 @@ while cap.isOpened():
 
     # 스쿼트 분석
     feedback_list = []
-    stage, counter, active_side = analyzer.stage, analyzer.counter, analyzer.active_side
+    stage, counter = analyzer.stage, analyzer.counter
+
+    # active_side가 None일 때만 Side Detection 실행
+    if results.pose_landmarks and active_side is None:
+        try:
+            active_side = analyzer.detect_side(results.pose_landmarks.landmark)
+            logger.info(f"Active side detected: {active_side}. Resetting initial_heel_y.")
+            initial_heel_y = None  # active_side가 변경될 때마다 초기 heel_y 값을 재설정
+        except Exception as e:
+            logger.error(f"{msg.ERROR_SIDE_DETECTION}: {e}", exc_info=True)
+            feedback_list.append(msg.ERROR_SIDE_DETECTION)
+            active_side = None  # 오류 발생 시 active_side를 None으로 설정
 
     if results.pose_landmarks:
         try:
-            stage, counter, active_side, feedback_list = analyzer.analyze(results.pose_landmarks.landmark)
+            landmark_list = results.pose_landmarks.landmark
+
+            # 랜드마크 좌표를 부드럽게 처리
+            if previous_landmarks:
+                for i in range(len(landmark_list)):
+                    landmark_list[i].x = smooth_value(landmark_list[i].x, previous_landmarks[i].x)
+                    landmark_list[i].y = smooth_value(landmark_list[i].y, previous_landmarks[i].y)
+                    landmark_list[i].z = smooth_value(landmark_list[i].z, previous_landmarks[i].z)
+            previous_landmarks = landmark_list # 현재 랜드마크를 이전 랜드마크로 저장
+
+            stage, counter, feedback_list = analyzer.analyze(landmark_list, active_side, initial_heel_y)
+
         except Exception as e:
-            logger.error(f"분석 중 오류 발생: {e}", exc_info=True)
-            feedback_list.append("분석 오류 발생")
+            logger.error(f"{msg.ERROR_ANALYSIS}: {e}", exc_info=True)
+            feedback_list.append(msg.ERROR_ANALYSIS)
     else:
         logger.debug("Pose landmarks not detected.")
-        feedback_list.append("자세를 감지할 수 없습니다.")
+        feedback_list.append(msg.ERROR_POSE_DETECTION)
         analyzer.active_side = None
-        analyzer.initial_heel_y = None
+        initial_heel_y = None
         analyzer.stage = None
+        previous_landmarks = None # 랜드마크가 없을 경우 이전 랜드마크 정보 초기화
+
 
     # 결과 시각화
     try:
@@ -193,11 +224,11 @@ while cap.isOpened():
 
             video_recorder.start_recording()
             recording = True
-            logger.info("녹화 시작")
+            logger.info(msg.LOG_RECORDING_START)
         else:
             video_recorder.stop_recording()
             recording = False
-            logger.info("녹화 종료")
+            logger.info(msg.LOG_RECORDING_STOP)
     elif key == ord('q'):
         logger.info("종료 키('q') 입력됨. 루프 종료.")
         break
@@ -226,7 +257,7 @@ if pose is not None:
 # ==================== 추가: 종료 시 녹화 중이면 중지 ====================
 if recording and video_recorder:
     video_recorder.stop_recording()
-    logger.info("녹화 종료 (종료 시)")
+    logger.info(msg.LOG_RECORDING_STOP_EXIT)
 # =======================================================================
 
 for handler in logging.getLogger().handlers[:]:
