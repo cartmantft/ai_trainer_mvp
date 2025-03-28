@@ -3,7 +3,7 @@ import numpy as np
 import math
 import logging
 import datetime
-import sys
+import os
 
 # --- 각도 및 좌표 계산 함수 ---
 def calculate_angle(a, b, c):
@@ -74,7 +74,9 @@ def setup_logging():
 
     # 파일 핸들러
     try:
-        file_handler = logging.FileHandler(log_filename, encoding='utf-8') 
+        logs_dir = os.path.join(os.path.dirname(__file__), '..', 'logs')
+        os.makedirs(logs_dir, exist_ok=True)
+        file_handler = logging.FileHandler(os.path.join(logs_dir, log_filename), encoding='utf-8')
         file_handler.setLevel(logging.DEBUG)
         file_handler.setFormatter(log_formatter)
         logger.addHandler(file_handler)
