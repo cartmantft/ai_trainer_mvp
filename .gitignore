@@ -9,5 +9,12 @@
 # VSCode 설정 (선택)
 .vscode/
 
+# Python cache
+__pycache__/
+*.pyc
+
 # logs
-.logs/
+logs/
+
+# Root-level debug text files
+/*.txt
